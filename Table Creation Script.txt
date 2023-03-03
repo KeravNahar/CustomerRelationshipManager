@@ -1,0 +1,18 @@
+Customer Table Creation
+
+CREATE TABLE Customer
+(
+	first_name VARCHAR(15),
+	last_name VARCHAR(15),
+	email VARCHAR(15)
+);
+
+INSERT INTO Customer VALUES('Sachin','Tendulkar','st@bcci.in');
+
+INSERT INTO Customer VALUES('Rohit','Sharma','rs@mi.in');
+
+INSERT INTO Customer VALUES('Virat','Kohli','vk@rcb.in');
+
+INSERT INTO Customer VALUES('Mahendrasingh','Dhoni','md@csk.in');
+
+INSERT INTO Customer VALUES('Bhuvaneshwar','Kumar','bk@sh.in');
